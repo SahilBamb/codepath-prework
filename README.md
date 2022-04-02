@@ -39,10 +39,14 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![LosingGame](https://user-images.githubusercontent.com/42818731/161361845-3e2c1f38-db38-40df-a719-50c7877bbcd1.gif)
+
+![WinningGame](https://user-images.githubusercontent.com/42818731/161361848-43664b53-ea40-458e-8e64-dc26d092585a.gif)
+
+![StoppingGame](https://user-images.githubusercontent.com/42818731/161362014-4f1636ae-124b-4898-86e2-1a7b2a65618b.gif)
+
+
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
