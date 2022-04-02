@@ -43,6 +43,7 @@ button {
 
 #button1 {
     background: lightgreen;
+    background-image: url("https://i.imgur.com/ZihSlWf.gif");
 }
 
 #button1:active, #button1.lit {
@@ -52,6 +53,8 @@ button {
 
 #button2 {
     background: pink;
+    background-image: url("https://i.gifer.com/FslV.gif");
+  
 }
 
 #button2:active, #button2.lit {
@@ -60,6 +63,7 @@ button {
 
 #button3 {
     background: lightyellow;
+    background-image: url("https://i.pinimg.com/originals/69/39/4e/69394eb597e69d732257e82bf85354b8.gif");
 }
 
 #button3:active, #button3.lit {
@@ -68,6 +72,7 @@ button {
 
 #button4 {
     background: lightblue;
+    background-image: url("https://media0.giphy.com/media/d5PPYjcb3caPTHM3hv/giphy.gif");
 }
 
 #button4:active, #button4.lit {
@@ -77,10 +82,13 @@ button {
 
 #button5 {
     background: grey;
+    background-image: url("https://cdn106.picsart.com/208215820003202.gif?to=crop&r=256");
 }
 
 #button5:active, #button5.lit {
     background:black;
+    
+  
 }
 
 /* images and videos max out at full width */
