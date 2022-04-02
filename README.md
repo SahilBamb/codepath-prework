@@ -23,12 +23,12 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [x] More than 4 functional game buttons
 * [x] Playback speeds up on each turn
 * [x] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
+* [x] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [x] User has a limited amount of time to enter their guess on each turn
 
@@ -61,18 +61,25 @@ These are two challenges I ran into while creating the submission and how I deal
  
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+One question I had about web development would be best practices. For example, would it be better to create modular functions that edit element properties through JavaScript or is it better to lower overhead by writing them directly in HTML? Or another example would be should we limit the scope of all our variables or is it more useful to keep some of them global? These are more nuanced aspects of programming that you cannot learn simply writing programs, since both will run successfully. Only in a real development environment, or on the advice of a someone experienced, can you learn what are best practice for the industry, so I am eager to learn that in web development. 
+
+Another question I had about web development was how to program a live application or game with feedback between two or more players. This would work considerably differently than a browser game that could be run entirely in JavaScript in a browser. In the age of social media and massively multiplayer online games, it has become clear how social interaction can add a new dimension to even the simplest game or feature. For example, one of Facebook.com’s most popular feature for years was the ability to ‘poke’ someone which was nothing more than a notification. Additionally, the main attraction of using the browser is the ability to effortless connect to the internet, which makes it in the forefront of my interest when I am programming for a web browser. So, with the understanding that it will add a lot more complexity, I would love to learn how to add that social aspect to my projects. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
   
+For the variables, almost all of them are defined as global using ‘var’. This is unnecessary as many of them are only used in a limited capacity such as the delays for clueHoldTime and cluePauseTime or the progress variable which holds the number of rounds. Reducing these and other variables scope to local scope or having them as parameters would lead to cleaner more efficient code.  
 
+Another change I would make would be to combine functions that have simple, repetitive actions. For example small functions like winGame() and loseGame() could be eliminated. They both send an alert message saying if the player won or lost and then run the stopGame() function. They both could be eliminated and their functionality combined in the stopGame() function. This could be done with a parameter and if-then statement that tells it to run a failure alert message, success alert message or simply stop the game. 
 
+Finally, I would take steps to make the game more modular and remove some hardcoded values and variables entirely. For example, in the tutorial the number of buttons was hardcoded to be set as four with preset colors and four present sounds. Yet, if these values were treated as variables whose values were generated in JavaScript when the program runs, there is the potential for unlimited different color, sound and button combinations. This could be implemented through a simple function to produce random colors, sounds and a random number of buttons. 
+
+These are some of the changes I would implement given more time to work on the project. 
 
 
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording](your-link-here)
-
 
 ## License
 
