@@ -85,7 +85,7 @@ These are some of the changes I would implement given more time to work on the p
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.youtube.com/watch?v=Q5pwke2NRhY)
 
 ## License
 
