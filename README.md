@@ -2,9 +2,9 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: Sahil Bambulkar
+Submitted by: **Sahil Bambulkar**
 
-Time spent: 10 hours spent in total
+Time spent: **15 hours spent in total**
 
 Link to project: https://glitch.com/edit/#!/nova-chemical-servant?path=script.js%3A151%3A38
 
@@ -41,12 +41,12 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 ### This is a gif of a player winning the game. 
-### It also includes the heading, body text, four buttons, start/stop buttons and turns. 
+#### It also includes the heading, body text, four buttons, start/stop buttons and turns. 
 
 ![success10](https://user-images.githubusercontent.com/42818731/161365479-c9f32b00-ce7c-40e5-af24-b0fffe146892.gif)
 
 ### This is a gif of a player losing a game.
-### It also shows each of the buttons are animated gifs. 
+#### It also shows each of the buttons are animated gifs and that the sequence is random each round. 
 
 ![Losing10](https://user-images.githubusercontent.com/42818731/161365592-15391a28-1f96-4aa2-892e-c2f3345f56e3.gif)
 
@@ -65,7 +65,7 @@ I used W3Schools website because they have great resources on [CSS Selectors](ht
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-Two challenges I encountered were understanding the main gameloop and another challenge was event listening versus onclick in JavaScript. These are both unique aspects of web development that I had not previously seen programming in other languages like Python, C, C++ and Java and so they were new challenges for me. 
+Two challenges I encountered were understanding the main game loop and another challenge was event listening versus onclick in JavaScript. These are both unique aspects of web development that I had not previously seen programming in other languages like Python, C, C++ and Java and so they were new challenges for me. 
 
 First, for the gameplay loop challenge, I was confused how setInterval() and clearInterval() work without an actual loop present. In the past when I made games, I would implement a while loop with a certain amount of delay and use an iterating time variable to keep track of time. I was not used to it being done by itself in the background. I was able to quickly learn the two functions' functionality by watching a YouTube channel, Code with Ania Kubów, which had a great concise video on the topic.
 
